@@ -42,3 +42,10 @@ docker run -dit openjdk:8-jdk-alpine
 docker container exec <container_name> ls /tmp
 ```
 
+## Docker build 
+=====================================
+```
+// docker build from dockerfile
+docker build -t in28min/hello-world-rest-api:dockerfile1 .
+```
+
