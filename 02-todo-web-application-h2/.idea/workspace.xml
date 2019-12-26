@@ -1,63 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0b6518c-56c5-47eb-9679-32c899d6e834" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/tappware.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code-backup/01-web-app-with-spotify-dockerfile-maven-plugin.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/in28minutes/springboot/web/EnvironmentConfigurationLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/in28minutes/springboot/web/SpringBootFirstWebApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/in28minutes/springboot/web/controller/ErrorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/in28minutes/springboot/web/controller/LogoutController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/in28minutes/springboot/web/controller/TodoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/in28minutes/springboot/web/controller/WelcomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/in28minutes/springboot/web/model/Todo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/in28minutes/springboot/web/security/SecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/in28minutes/springboot/web/service/TodoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/footer.jspf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/header.jspf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/navigation.jspf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/list-todos.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/todo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/welcome.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/in28minutes/springboot/web/SpringBootFirstWebApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/docker/image-id" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/docker/image-name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/docker/repository" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/docker/tag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/docker/com.in28minutes.springboot.web/02-todo-web-application-h2/image-id" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/docker/com.in28minutes.springboot.web/02-todo-web-application-h2/image-name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/docker/com.in28minutes.springboot.web/02-todo-web-application-h2/repository" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/docker/com.in28minutes.springboot.web/02-todo-web-application-h2/tag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/todo-web-application-h2.war.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/todo-web-application-h2/WEB-INF/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/todo-web-application-h2/WEB-INF/classes/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/todo-web-application-h2/WEB-INF/jsp/common/footer.jspf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/todo-web-application-h2/WEB-INF/jsp/common/header.jspf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/todo-web-application-h2/WEB-INF/jsp/common/navigation.jspf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/todo-web-application-h2/WEB-INF/jsp/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/todo-web-application-h2/WEB-INF/jsp/list-todos.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/todo-web-application-h2/WEB-INF/jsp/todo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/todo-web-application-h2/WEB-INF/jsp/welcome.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="a0b6518c-56c5-47eb-9679-32c899d6e834" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -153,8 +97,8 @@
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="266">
-                <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+              <first_editor relative-caret-position="475">
+                <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
               </first_editor>
               <second_editor />
             </state>
@@ -412,16 +356,15 @@
       <option name="presentableId" value="Default" />
       <updated>1577371310495</updated>
       <workItem from="1577371315900" duration="4524000" />
-      <workItem from="1577398079634" duration="568000" />
+      <workItem from="1577398079634" duration="1188000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5092000" />
+    <option name="totallyTimeSpent" value="5712000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1352" y="-77" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="1352" y="-77" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -559,8 +502,8 @@
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="266">
-            <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+          <first_editor relative-caret-position="475">
+            <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
           </first_editor>
           <second_editor />
         </state>
