@@ -8,13 +8,23 @@ services:
     networks:
       - currency-compose-network
 
+  zuul-api-gateway: 
+    image: in28min/netflix-zuul-api-gateway-server:0.0.1-SNAPSHOT
+    ports: 
+      - "8765:8765"
+    restart: always
+    depends_on:
+      - naming-server
+    networks:
+      - currency-compose-network
+
   currency-exchange-service:
     image: in28min/currency-exchange-service:0.0.1-SNAPSHOT
 #    build:
 #      context: currency-exchange-service
 #      dockerfile: Dockerfile
-    # ports:
-    #   - "8000:8000"
+    ports:
+      - "8000:8000"
     restart: always
     depends_on:
       - naming-server
