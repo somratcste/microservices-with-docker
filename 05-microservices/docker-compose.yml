@@ -13,8 +13,8 @@ services:
 #    build:
 #      context: currency-exchange-service
 #      dockerfile: Dockerfile
-    ports:
-      - "8000:8000"
+    # ports:
+    #   - "8000:8000"
     restart: always
     depends_on:
       - naming-server

@@ -70,5 +70,8 @@ docker-compose rm
 docker-compose build 
 docker-compose events
 
+// docker compose scale
+docker-compose scale currency-exchange-service=2
+
 ```
 
