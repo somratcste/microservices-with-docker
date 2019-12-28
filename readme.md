@@ -40,12 +40,35 @@ docker system df // docker daemon manages
 // -it allows to run commands on a running container
 docker run -dit openjdk:8-jdk-alpine 
 docker container exec <container_name> ls /tmp
-```
 
-## Docker build 
-=====================================
-```
 // docker build from dockerfile
 docker build -t in28min/hello-world-rest-api:dockerfile1 .
+docker build .
+
+// docker tag name 
+docker tag <image_id> in28mn/rest-api-full-stack:2stagebuild
+
+// docker compose 
+docker-compose -version
+docker-compose up
+docker-compose up -d
+docker-compose down
+
+docker-compose config
+docker-compose images 
+docker-compose ps
+docker-compose top
+docker-compose pause
+docker-compose unpause
+docker-compose stop 
+docker-compose kill 
+
+// remove all the conatiners 
+docker-compose rm 
+
+// build all services
+docker-compose build 
+docker-compose events
+
 ```
 
