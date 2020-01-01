@@ -1,0 +1,26 @@
+version: '3.7'
+services:
+  python-process: 
+    # image: flask-sample:latest1
+    build:
+     context: .
+     dockerfile: Dockerfile
+    ports: 
+      - "5000:5000"
+    restart: always
+    networks:
+      - python-networks
+
+  python-app: 
+    # image: flask-sample:latest1
+    build:
+     context: dock_app
+     dockerfile: Dockerfile
+    ports: 
+      - "8080:5000"
+    restart: always
+    networks:
+      - python-networks
+
+networks:
+  python-networks:

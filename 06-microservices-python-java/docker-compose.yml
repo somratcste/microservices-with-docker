@@ -10,10 +10,10 @@ services:
       - microservice-communication-network
 
   naming-server: 
-    # image: in28min/netflix-eureka-naming-server:0.0.1-SNAPSHOT
-    build:
-      context: netflix-eureka-naming-server
-      dockerfile: Dockerfile
+    image: nazmul/netflix-eureka-naming-server:0.0.1-SNAPSHOT
+    # build:
+    #   context: netflix-eureka-naming-server
+    #   dockerfile: Dockerfile
     ports: 
       - "8761:8761"
     restart: always
@@ -66,10 +66,10 @@ services:
 #       - microservice-communication-network
 
   currency-conversion-service:
-    # image: in28min/currency-conversion-service:0.0.1-SNAPSHOT
-   build:
-     context: currency-conversion-service
-     dockerfile: Dockerfile
+    image: nazmul/currency-conversion-service:0.0.1-SNAPSHOT
+    # build:
+    #   context: currency-conversion-service
+    #   dockerfile: Dockerfile
     ports:
       - "8100:8100"
     restart: always
@@ -82,7 +82,7 @@ services:
       - rabbitmq
       - zipkin-server
     networks:
-      - currency-compose-network
+      - microservice-communication-network
   
 # Networks to be created to facilitate communication between containers
 networks:
