@@ -48,22 +48,19 @@ services:
   #   networks:
   #     - microservice-communication-network
 
-#   currency-exchange-service:
-#     image: in28min/currency-exchange-service:0.0.1-SNAPSHOT
-#     environment:
-#       RABBIT_URI: amqp://guest:guest@rabbitmq:5672
-# #    build:
-# #      context: currency-exchange-service
-# #      dockerfile: Dockerfile
-#     ports:
-#       - "8000:8000"
-#     restart: always
-#     depends_on:
-#       - naming-server
-#       - rabbitmq
-#       - zipkin-server
-#     networks:
-#       - microservice-communication-network
+  currency-exchange-service:
+    image: noman/currency-exchange-service:1.0.0-SNAPSHOT
+    environment:
+      RABBIT_URI: amqp://guest:guest@rabbitmq:5672
+    ports:
+      - "5000:5000"
+    restart: always
+    depends_on:
+      - naming-server
+      - rabbitmq
+      - zipkin-server
+    networks:
+      - microservice-communication-network
 
   currency-conversion-service:
     image: nazmul/currency-conversion-service:0.0.1-SNAPSHOT
@@ -77,7 +74,7 @@ services:
       # CURRENCY_EXCHANGE_URI: http://currency-exchange-service:8000
       RABBIT_URI: amqp://guest:guest@rabbitmq:5672
     depends_on:
-      # - currency-exchange-service
+      - currency-exchange-service
       - naming-server
       - rabbitmq
       - zipkin-server

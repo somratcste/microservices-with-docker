@@ -45,7 +45,7 @@ def currency_converter(euro_con,bdt_con):
 @app.route('/get-data/<number>')
 def hello(number):
    http = urllib3.PoolManager()
-   url = "/number-to-word/<" + number+ ">"
+   url = "http://172.19.0.6:8100/number-to-word/" + number 
    response = http.request('GET', url)
    response = json.loads(response.data.decode('utf-8'))
    return response["message"]
